@@ -1,5 +1,5 @@
 import "./App.css";
-import Routes from "./routes/Routes";
+import Routes from "./components/routes/Routes";
 import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import { ThemeProvider } from "styled-components";

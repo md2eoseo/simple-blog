@@ -1,10 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import About from "../components/About";
-import Home from "../components/Home";
-import Project from "../components/Project";
-import Recent from "../components/Recent";
-import Contact from "../components/Contact";
+import About from "./About";
+import Home from "./Home";
+import Project from "./Project";
+import Recent from "./Recent";
+import RecentPost from "./RecentPost";
+import Contact from "./Contact";
 
 function Routes() {
   return (
@@ -20,6 +21,9 @@ function Routes() {
       </Route>
       <Route exact path="/recent">
         <Recent />
+      </Route>
+      <Route exact path="/recent/:id">
+        <RecentPost />
       </Route>
       <Route exact path="/contact">
         <Contact />

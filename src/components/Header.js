@@ -75,7 +75,7 @@ function Header() {
         <Link to="/project">
           <Button>project</Button>
         </Link>
-        <Link to="/recently">
+        <Link to="/recent">
           <Button>recent</Button>
         </Link>
         <Link to="/contact">
