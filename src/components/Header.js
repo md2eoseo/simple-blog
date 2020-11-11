@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Container = styled.div`
   width: 100%;
@@ -65,22 +65,22 @@ const Menu = styled.div`
 function Header() {
   return (
     <Container>
-      <Link to="/">
+      <NavLink to="/">
         <Button logo>2eoseo</Button>
-      </Link>
+      </NavLink>
       <Menu>
-        <Link to="/about">
+        <NavLink to="/about" activeClassName="selected">
           <Button>about</Button>
-        </Link>
-        <Link to="/project">
+        </NavLink>
+        <NavLink to="/project" activeClassName="selected">
           <Button>project</Button>
-        </Link>
-        <Link to="/recent">
+        </NavLink>
+        <NavLink to="/recent" activeClassName="selected">
           <Button>recent</Button>
-        </Link>
-        <Link to="/contact">
+        </NavLink>
+        <NavLink to="/contact" activeClassName="selected">
           <Button>contact</Button>
-        </Link>
+        </NavLink>
       </Menu>
     </Container>
   );
