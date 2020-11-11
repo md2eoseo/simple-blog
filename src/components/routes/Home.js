@@ -1,12 +1,11 @@
 import React from "react";
-import ProjectContainer from "../ProjectContainer";
-import RecentContainer from "../RecentContainer";
+import Posts from "../Posts";
 
 function Home() {
   return (
     <>
-      <RecentContainer home={true} len={4} />
-      <ProjectContainer />
+      <Posts which="recent" home={true} len={4} />
+      <Posts which="project" home={true} />
     </>
   );
 }

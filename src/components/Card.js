@@ -50,10 +50,22 @@ const Info = styled.div`
 
 const limitTitle = 40;
 
-function Card({ id, title, content, imgURL, date }) {
+function Card({
+  which,
+  id,
+  title,
+  summarize,
+  content,
+  team,
+  stack,
+  imgURL,
+  githubURL,
+  year,
+  date,
+}) {
   return (
     <Container>
-      <Link to={`/recent/${id}`}>
+      <Link to={`/${which}/${id}`}>
         <CardImg
           alt="cardImg"
           src={imgURL ? imgURL : "https://picsum.photos/400"}
@@ -64,7 +76,12 @@ function Card({ id, title, content, imgURL, date }) {
               ? title.slice(0, { limitTitle }) + "..."
               : title}
           </b>
-          <i style={{ alignSelf: "flex-end" }}>{date}</i>
+          {date && <i style={{ alignSelf: "flex-end" }}>{date}</i>}
+          {year && (
+            <i style={{ alignSelf: "flex-end" }}>
+              {year}, {team ? "팀" : "개인"}
+            </i>
+          )}
         </Info>
       </Link>
     </Container>

@@ -1,0 +1,94 @@
+[
+  {
+    "id": 6,
+    "title": "Apple Official Website Clone",
+    "summarize": "Cloning Apple official website's home screen.",
+    "content": [
+      "Tailwind CSS를 바탕으로 반응형 웹을 구현",
+      "Tailwind CSS의 한계를 발견하고 CSS를 추가하여 부족한 부분 메움",
+      "애플 공식 웹사이트를 개발자 도구로 분석하여 기능 구현",
+      "단순히 프론트엔드 기능만 하는 것으로 한계가 있음",
+      "다른 웹사이트를 클론 코딩하여 여러 개발 기술을 익히는데 흥미가 생김"
+    ],
+    "year": 2020,
+    "team": false,
+    "stack": ["HTML", "CSS", "Vanilla JS", "Tailwind CSS"],
+    "imgURL": null,
+    "githubURL": "https://github.com/md2eoseo/exercise-tailwindcss"
+  },
+  {
+    "id": 5,
+    "title": "Momentuum",
+    "summarize": "Web Browser Dashboard for personal Todo.",
+    "content": [
+      "localStorage를 이용해 유저 구분(이름 설정 가능) 및 할 일 등록 구현",
+      "현시간 표출, 주기적으로 변하는 배경화면",
+      "OpenWeatherMap API를 이용해 현위치 날씨 표출"
+    ],
+    "year": 2020,
+    "team": false,
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "imgURL": null,
+    "githubURL": "https://github.com/md2eoseo/Momentuum"
+  },
+  {
+    "id": 4,
+    "title": "Todo Web",
+    "summarize": "Todo app using RestDB and fetch API.",
+    "content": [
+      "순수 자바스크립트로 todo app 작성",
+      "fetch API를 사용하여 CRUD 구현",
+      "RestDB와 연동"
+    ],
+    "year": 2020,
+    "team": false,
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "imgURL": null,
+    "githubURL": "https://github.com/md2eoseo/TodoWeb"
+  },
+  {
+    "id": 3,
+    "title": "FooBar Order Form",
+    "summarize": "Order Form making orders for FooBar.",
+    "content": [
+      "메뉴를 선택하고 수량을 변경, 삭제하여 주문을 만들고 가상으로 결제하는 방식을 거친 뒤, 주문 정보를 서버에 등록",
+      "해당 서버는 Foobar 대시보드에서 데이터를 가져오는 서버와 같아 주문 즉시 주문 번호를 대시보드에서 확인 가능",
+      "여러 React Hooks와 State 사용"
+    ],
+    "year": 2020,
+    "team": true,
+    "stack": ["ReactJS", "CSS", "Parcel"],
+    "imgURL": null,
+    "githubURL": "https://github.com/md2eoseo/foobar-order"
+  },
+  {
+    "id": 2,
+    "title": "FooBar Dashboard",
+    "summarize": "Dashboard showing helpful information for customers to choose beer.",
+    "content": [
+      "랜덤으로 주문 내역을 만드는 서버에서 데이터를 받아 저장하여 실시간으로 정보 표출",
+      "최고 매출 맥주, 추천 맥주, 매장에서 판매하는 맥주, 대기 중인 주문 번호 등을 실시간 표출",
+      "여러 React Hooks와 State 사용"
+    ],
+    "year": 2020,
+    "team": true,
+    "stack": ["ReactJS", "Sass(SCSS)", "Parcel"],
+    "imgURL": null,
+    "githubURL": "https://github.com/md2eoseo/foobar"
+  },
+  {
+    "id": 1,
+    "title": "Animation Infoscreen",
+    "summarize": "Animation infoscreen for kids collaborated with Danish Museum Science & Technology.",
+    "content": [
+      "컴퓨터의 발전 과정, 기능 등에 관련된 내용을 어린이들에게 쉽고 흥미롭게 전달하도록 구성",
+      "svg 파일에 애니메이션 적용, 효과음 등을 이용하여 흥미 유발",
+      "레트로 분위기를 프로젝트의 컨셉으로 잡음"
+    ],
+    "year": 2020,
+    "team": true,
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "imgURL": null,
+    "githubURL": "https://github.com/md2eoseo/AnimationProject_SpicyNoodles"
+  }
+]

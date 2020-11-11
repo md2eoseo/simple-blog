@@ -1,8 +1,9 @@
 import React from "react";
-import RecentContainer from "../RecentContainer";
+import Posts from "../Posts";
 
 function Recent() {
-  return <RecentContainer len={10} />;
+  // TODO: infinite scrolling
+  return <Posts which="recent" len={10} />;
 }
 
 export default Recent;

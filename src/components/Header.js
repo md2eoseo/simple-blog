@@ -22,7 +22,6 @@ const Container = styled.div`
 
 const Button = styled.div`
   font-size: 2rem;
-  color: ${({ theme }) => theme.colors.nearBlack};
   margin: 0 25px;
 
   ${(props) =>
